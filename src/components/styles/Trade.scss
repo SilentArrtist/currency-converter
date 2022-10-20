@@ -1,0 +1,36 @@
+.trade {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+
+
+    /* .trade_block */
+    
+    &_block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 20px;
+        border-radius: 5px;
+    }
+    
+    /* .trade_title */
+    
+    &_title {
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    }
+    input{
+        margin-top: 10px;
+    }
+    select{
+        color:white;
+        // border-radius: 3px;
+        padding: 5px;
+        background: rgb(143, 151, 161);
+    }
+    

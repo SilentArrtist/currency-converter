@@ -1,0 +1,31 @@
+
+
+
+.currency {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 15px 70px 25px 15px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 5px;
+
+    /* .currency_title */
+    
+    &_title {
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+        align-self: flex-start;
+    }
+    
+    /* .currency_value */
+    
+    &_value {
+        align-self: flex-start;
+        color: rgba($color: red, $alpha: 0.69);
+        font-weight: bold;
+        font-size: 24px;
+    }
+}
+        
